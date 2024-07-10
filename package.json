@@ -1,0 +1,22 @@
+{
+  "name": "fuel-sway-project",
+  "version": "1.0.0",
+  "description": "A project to run a Fuel Sway script with TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "concurrently -k -r \"npm run build -- --watch\" \"nodemon dist/main.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "fuels": "^0.91.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4",
+    "typescript": "^4.7.2"
+  }
+}
