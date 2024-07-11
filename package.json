@@ -1,7 +1,7 @@
 {
-  "name": "fuel-sway-project",
+  "name": "fuel-src721-localnode",
   "version": "1.0.0",
-  "description": "A project to run a Fuel Sway script with TypeScript",
+  "description": "A simple local node setup.",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
